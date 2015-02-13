@@ -31,15 +31,7 @@ public class Towers {
 	 * @param endPole - pole the discs end on (zero based)
 	 */
 	public static void solveTowers(int numDiscs, int startPole, int endPole) {
-		if (numDiscs == 0) {
-			// BASE case - do nothing;
-		} else {
-			int intermediatePole = poles - startPole - endPole;
-			
-			solveTowers(numDiscs - 1, startPole, intermediatePole);
-			moveDisc(startPole, endPole);
-			solveTowers(numDiscs - 1, intermediatePole,  endPole);			
-		}		
+
 	}
 	
 	/**
