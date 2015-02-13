@@ -15,6 +15,9 @@ Implement the recursive method solveTowers to complete the Towers of Hanoi progr
 
 Above step 1 & 3, transferring the top n-1 disks, can be thought as a fresh problem and can be solved in a similar fashion.
 
+## Play Online
+http://www.mathsisfun.com/games/towerofhanoi.html
+
 ## Output for 3 discs:
 ```
 Enter number of discs: 3
